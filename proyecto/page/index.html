@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Barra Navegación</title>
+</head>
+
+<body>
+    <div class="navbar navbar-expand-md bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a href="/" class="navbar-brand">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseNavbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapseNavbarContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link active">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown" data-bs-toggle="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">Dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="" class="dropdown-item">Item 1</a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">Item 2</a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">Item 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <form action="" class="d-flex">
+                    <input type="search" class="form-control" placeholder="Buscar">
+                    <button type="button" class="btn btn-outline-success">Buscar</button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+    <section id="buscar" class="my-3">
+        <div class="container ">
+            <div class="card">
+                <div class="card-body">
+                    <form action="">
+                        <div class="row align-items-center">
+                            <div class="col-lg-3 col-sm-6 col-12">
+                                <input type="text" class="form-control" placeholder="Buscar">
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-12">
+                                <select class="form-select" id="myselect" name="categorias">
+                                    <option value="" selected>Categorías</option>
+                                    <option value="">PS5</option>
+                                    <option value="">Xbox Series S|X</option>
+                                    <option value="">Nintendo Swith</option>
+                                    <option value="">PC</option>
+
+                                </select>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-12">
+                                <select class="form-select" id="other" name="localizacion">
+                                    <option value="" selected>Tiendas</option>
+                                    <option value="">Ourense</option>
+                                    <option value="">Barcelona</option>
+                                    <option value="">Gijón</option>
+                                    <option value="">Málaga</option>
+
+                                </select>
+                            </div>
+                            <div class="col-lg-2 col-sm-4 col-12">
+                                <button type="button" class="btn btn-success w-100">Buscar</button>
+                            </div>
+                            <div class="col">
+                                <input type="checkbox" name="filtrar" id="filtrar" class="form-check-input">
+                                <label for="filtrar" class="form-check-label">Filtrar</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div class="container">
+        <section class="categoria-lista">
+            <div class="row gx-4 gy-4 row-cols-2 row-cols-lg-5 row-cols-md-4">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="/">
+                                <div class="text-center">
+                                    <i class="bi bi-lightbulb-fill fs-1"></i>
+                                </div>
+                                <h3>Estrategia</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="/">
+                                <div class="text-center">
+                                    <i class="bi bi-trophy-fill fs-1"></i>
+                                </div>
+                                <h3>Lucha</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="/">
+                                <div class="text-center">
+                                    <i class="bi bi-people-fill fs-1"></i>
+                                </div>
+                                <h3>Cooperativos</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="/">
+                                <div class="text-center">
+                                    <i class="bi bi-grid-1x2-fill fs-1"></i>
+                                </div>
+                                <h3>Plataformas</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="/">
+                                <div class="text-center">
+                                    <i class="bi bi-emoji-dizzy-fill fs-1"></i>
+                                </div>
+                                <h3>Horror</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="/">
+                                <div class="text-center">
+                                    <i class="bi bi-car-front-fill fs-1"></i>
+                                </div>
+                                <h3>Carrera</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="/">
+                                <div class="text-center">
+                                    <i class="bi bi-incognito fs-1"></i>
+                                </div>
+                                <h3>Misterio</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="/">
+                                <div class="text-center">
+                                    <i class="bi bi-motherboard-fill fs-1"></i>
+                                </div>
+                                <h3>Educativo</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="/">
+                                <div class="text-center">
+                                    <i class="bi bi-water fs-1"></i>
+                                </div>
+                                <h3>Acuático</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="container">
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae cum odit quas voluptate. Necessitatibus
+            numquam odio dolores. Architecto maiores, doloremque facere quibusdam, culpa consequuntur ducimus adipisci
+            assumenda impedit nihil hic expedita molestiae distinctio veritatis! Beatae eveniet alias quaerat iusto
+            magni explicabo nobis voluptates sequi in, vero assumenda commodi mollitia ea?</p>
+        <a href="#">Ver</a>
+        <p>20-06-2024</p>
+        <hr>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae cum odit quas voluptate. Necessitatibus
+            numquam odio dolores. Architecto maiores, doloremque facere quibusdam, culpa consequuntur ducimus adipisci
+            assumenda impedit nihil hic expedita molestiae distinctio veritatis! Beatae eveniet alias quaerat iusto
+            magni explicabo nobis voluptates sequi in, vero assumenda commodi mollitia ea?</p>
+        <a href="#">Ver</a>
+        <p>20-06-2024</p>
+        <ul class="pagination">
+            <li class="page-item"><a href="#" class="page-link">Anterior</a></li>
+            <li class="page-item"><a href="#" class="page-link">1</a></li>
+            <li class="page-item"><a href="#" class="page-link">2</a></li>
+            <li class="page-item"><a href="#" class="page-link">Siguiente</a></li>
+
+        </ul>
+
+        <a href="#" class="btn btn-primary btn-lg">Post anteriores</a>
+    </section>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div>
+                    <p>Copyright Mi Web 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="../node_modules/@popperjs/core/dist/umd/popper-base.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

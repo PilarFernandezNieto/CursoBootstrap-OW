@@ -1,0 +1,31 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.min.css";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.categoria-lista i {
+    color: #8800AA
+}
+.categoria-lista h3 {
+    text-align: center;
+}
+.categoria-lista .card {
+    height: 100%;
+    margin-top: 5px;
+    transition: 1s all;
+}
+
+.categoria-lista a {
+    text-decoration: none;
+    color: #000;
+}
+.categoria-lista .card:hover {
+   background-color: #8800AA;
+}
+.categoria-lista .card:hover i,
+.categoria-lista .card:hover a {
+    color: #FFF;
+}
