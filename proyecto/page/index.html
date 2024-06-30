@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/style.css">
-    <title>Barra Navegación</title>
+    <title>Página Completa Bootstrap</title>
 </head>
 
 <body>
-    <div class="navbar navbar-expand-md bg-body-tertiary" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-md" id="mainNav" >
         <div class="container-fluid">
             <a href="/" class="navbar-brand">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -50,14 +50,28 @@
 
         </div>
 
-    </div>
+    </nav>
+
+    <header id="mainHeader" >
+        <div class="container position-relative px-5 px-lg-5">
+            <div class="row">
+                <div class="mx-auto col-12 col-md-8 col-lg-6">
+                    <h1>Bienvenido a Mi Tienda</h1>
+                    <p>Compra Juegos Al Mejor Precio</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae atque quibusdam pariatur ea iste qui quas quidem excepturi earum, saepe vero, libero natus odit magni voluptate eum architecto consequuntur? Nemo?</p>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
 
     <section id="buscar" class="my-3">
         <div class="container ">
             <div class="card">
                 <div class="card-body">
                     <form action="">
-                        <div class="row align-items-center">
+                        <div class="row gy-2 align-items-center">
                             <div class="col-lg-3 col-sm-6 col-12">
                                 <input type="text" class="form-control" placeholder="Buscar">
                             </div>
@@ -97,7 +111,7 @@
     </section>
     <div class="container">
         <section class="categoria-lista">
-            <div class="row gx-4 gy-4 row-cols-2 row-cols-lg-5 row-cols-md-4">
+            <div class="row g-4 row-cols-2 row-cols-lg-4 row-cols-md-3">
                 <div class="col">
                     <div class="card">
                         <div class="card-body">
@@ -209,23 +223,24 @@
             </div>
         </section>
     </div>
-    <section class="container">
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae cum odit quas voluptate. Necessitatibus
+
+    <section class="container mt-4">
+        <h2 class="fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. </h2>
+        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae cum odit quas voluptate. Necessitatibus
             numquam odio dolores. Architecto maiores, doloremque facere quibusdam, culpa consequuntur ducimus adipisci
             assumenda impedit nihil hic expedita molestiae distinctio veritatis! Beatae eveniet alias quaerat iusto
             magni explicabo nobis voluptates sequi in, vero assumenda commodi mollitia ea?</p>
-        <a href="#">Ver</a>
-        <p>20-06-2024</p>
+        <a href="#" class="btn btn-sm btn-secondary float-end">Ver</a>
+        <p class="fst-italic text-muted">20-06-2024</p>
         <hr>
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae cum odit quas voluptate. Necessitatibus
+        <h2 class="fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. </h2>
+        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae cum odit quas voluptate. Necessitatibus
             numquam odio dolores. Architecto maiores, doloremque facere quibusdam, culpa consequuntur ducimus adipisci
             assumenda impedit nihil hic expedita molestiae distinctio veritatis! Beatae eveniet alias quaerat iusto
             magni explicabo nobis voluptates sequi in, vero assumenda commodi mollitia ea?</p>
-        <a href="#">Ver</a>
-        <p>20-06-2024</p>
-        <ul class="pagination">
+            <a href="#" class="btn btn-sm btn-secondary float-end">Ver</a>
+            <p class="fst-italic text-muted">20-06-2024</p>
+        <ul class="pagination justify-content-center">
             <li class="page-item"><a href="#" class="page-link">Anterior</a></li>
             <li class="page-item"><a href="#" class="page-link">1</a></li>
             <li class="page-item"><a href="#" class="page-link">2</a></li>
@@ -233,34 +248,36 @@
 
         </ul>
 
-        <a href="#" class="btn btn-primary btn-lg">Post anteriores</a>
+        <div class="d-flex justify-content-end">
+            <a href="#" class="btn btn-primary btn-lg text-uppercase">Post anteriores <i class="bi bi-arrow-right"></i></a>
+        </div>
     </section>
-    <section class="container">
-        <div class="row">
+    <footer class="container mt-4">
+        <div class="row gx-4 justify-content-center">
             <div class="col-md-10 col-lg-8 col-xl-7">
-                <ul>
-                    <li>
+                <ul class="text-center list-inline">
+                    <li class="list-inline-item">
                         <a href="#">
                             <i class="bi bi-linkedin"></i>
                         </a>
                     </li>
-                    <li>
+                    <li class="list-inline-item">
                         <a href="#">
                             <i class="bi bi-facebook"></i>
                         </a>
                     </li>
-                    <li>
+                    <li class="list-inline-item">
                         <a href="#">
-                            <i class="bi bi-youtube"></i>
+                            <i class="bi bi-youtube text-danger"></i>
                         </a>
                     </li>
                 </ul>
-                <div>
+                <div class="small text-center text-muted">
                     <p>Copyright Mi Web 2024</p>
                 </div>
             </div>
         </div>
-    </section>
+    </footer>
 
 
 
